@@ -2,14 +2,14 @@ import Counter from './Counter'
 import './App.css'
 import Likebutton from './Likebutton'
 import Todolist from './Todolist'
+import Lottery from './Lottery'
 
 function App() {
 
 
   return (
     <>
-      <h1>TodoList</h1>
-      <Todolist />
+      <Lottery />
     </>
   )
 }

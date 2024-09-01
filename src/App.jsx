@@ -3,13 +3,14 @@ import './App.css'
 import Likebutton from './Likebutton'
 import Todolist from './Todolist'
 import Lottery from './Lottery'
+import Ticket from './Ticket'
 
 function App() {
 
 
   return (
     <>
-      <Lottery />
+     <Lottery n={3} winningsum={15}/>
     </>
   )
 }

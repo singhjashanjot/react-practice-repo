@@ -4,13 +4,16 @@ import Likebutton from './Likebutton'
 import Todolist from './Todolist'
 import Lottery from './Lottery'
 import Ticket from './Ticket'
+import Forms from './form'
 
 function App() {
 
 
   return (
     <>
-     <Lottery n={3} winningsum={15}/>
+     {/*
+      <Lottery n={3} winningsum={15}/> */}
+      <Forms/>
     </>
   )
 }
